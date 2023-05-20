@@ -14,8 +14,8 @@ values = {'1':0,
         '11':0,
         '12':0}
 for i in range(200):
-    a = random.randint(0,7)
-    b = random.randint(0,7)
+    a = random.randint(1,6)
+    b = random.randint(1,6)
     c = a+b 
     d.append(c)
 for i in d:
